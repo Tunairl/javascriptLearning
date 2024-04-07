@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <label for="Calculator JS">Calculator JS</label>
+
+    <div id="input-wrap">
+        <input type="number" name="input" id="num1">
+        <input type="number" name="input" id="num2">
+    </div>
+
+    <div id="radiobtn-wrap">
+        <input type="radio" id="add" name="operator" value="+">
+        <label for="add">+</label>
+        <input type="radio" id="sub" name="operator" value="-">
+        <label for="subtract">-</label>
+        <input type="radio" id="mltpy" name="operator" value="*">
+        <label for="multiply">*</label>
+        <input type="radio" id="dvsn" name="operator" value="/">
+        <label for="divide">/</label>
+    </div>
+
+    <div id="button-wrap">
+        <button type="button" onclick="calculate()" id="calc-btn" value="Calculate">
+            <label for="calc-btn">Calculate</label>
+        </button>
+
+        <button type="button" onclick="clearAll()" id="calc-btn-ca" value="Clear All">
+            <label for="calc-btn-ca">Clear All</label>
+        </button>
+        
+    </div>
+
+    
+        
+
+    <p id="result"></p>
+
+    <script src="calc-js.js"></script>
+</body>
+
+</html>
